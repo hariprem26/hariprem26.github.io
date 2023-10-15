@@ -6,16 +6,18 @@
     <style>
         body {
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
             background-color: #fff;
             font-family: 'Arial Narrow', sans-serif;
         }
 
+        .business-card-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Adjusted to align at the top */
+            min-height: 100vh;
+        }
+
         .business-card {
-            width: 100%;
             background-color: #082F3E;
             color: #fff;
             padding: 20px;
@@ -72,16 +74,18 @@
     </style>
 </head>
 <body>
-    <div class="business-card">
-        <img class="profile-img" src="https://media.licdn.com/dms/image/D5603AQEQUKBg1H0Lkw/profile-displayphoto-shrink_200_200/0/1694175542293?e=1702512000&v=beta&t=tmrECyUmhTOadfbyISU5l7cMMncA4y2k0ZfFZfJFBU4" alt="Profile Picture">
-        <div class="name">Hariprem</div>
-        <div class="job-title">QA Engineer / QMR</div>
-        <div class="contact-info">
-            <span class="contact-icons"><i class="fas fa-envelope"></i></span> Email: hari.prem@meibanglobal.com<br>
-            <span class="contact-icons"><i class="fas fa-globe"></i></span> Website: <a class="website-link" href="https://meibanenergy.com">meibanenergy.com</a><br>
-            <span class="contact-icons"><i class="fab fa-whatsapp"></i></span> Phone: <a class="phone-link" href="https://wa.me/+60127926020">+60 127926020</a>
+    <div class="business-card-container">
+        <div class="business-card">
+            <img class="profile-img" src="https://media.licdn.com/dms/image/D5603AQEQUKBg1H0Lkw/profile-displayphoto-shrink_200_200/0/1694175542293?e=1702512000&v=beta&t=tmrECyUmhTOadfbyISU5l7cMMncA4y2k0ZfFZfJFBU4" alt="Profile Picture">
+            <div class="name">Hariprem</div>
+            <div class="job-title">QA Engineer / QMR</div>
+            <div class="contact-info">
+                <span class="contact-icons"><i class="fas fa-envelope"></i></span> Email: hari.prem@meibanglobal.com<br>
+                <span class="contact-icons"><i class="fas fa-globe"></i></span> Website: <a class="website-link" href="https://meibanenergy.com">meibanenergy.com</a><br>
+                <span class="contact-icons"><i class="fab fa-whatsapp"></i></span> Phone: <a class="phone-link" href="https://wa.me/+60127926020">+60 127926020</a>
+            </div>
+            <img class="logo" src="https://meibanenergy.com/wp-content/uploads/2022/04/logo_white_full-1.png" alt="Company Logo">
         </div>
-        <img class="logo" src="https://meibanenergy.com/wp-content/uploads/2022/04/logo_white_full-1.png" alt="Company Logo">
     </div>
 </body>
 </html>
