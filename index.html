@@ -15,7 +15,7 @@
         }
 
         .business-card {
-            width: 300px;
+            width: 100%;
             background-color: #082F3E;
             color: #fff;
             padding: 20px;
@@ -24,17 +24,17 @@
         }
 
         .name {
-            font-size: 24px;
+            font-size: 36px;
             font-weight: bold;
         }
 
         .job-title {
-            font-size: 16px;
+            font-size: 24px;
         }
 
         .contact-info {
-            font-size: 14px;
-            margin-top: 10px;
+            font-size: 20px;
+            margin-top: 20px;
         }
 
         .profile-img {
@@ -42,24 +42,32 @@
             border-radius: 50%;
         }
 
+        .logo {
+            max-width: 200px;
+            margin-top: 20px;
+        }
+
+        .contact-icons {
+            font-size: 36px;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        /* Style the links for phone and website */
         .website-link, .phone-link {
             text-decoration: none;
             color: #fff;
         }
 
         .website-link:hover, .phone-link:hover {
-            color: #fff;
+            color: #fff; /* This ensures the color stays white even after clicking */
         }
 
-        .logo {
-            max-width: 100px;
-            margin-top: 20px;
-        }
-
-        .contact-icons {
-            font-size: 20px;
-            color: #fff;
-            margin-right: 5px;
+        /* Add media query for smaller screens (e.g., mobile devices) */
+        @media screen and (max-width: 767px) {
+            .business-card {
+                max-width: 100%;
+            }
         }
     </style>
 </head>
@@ -70,7 +78,7 @@
         <div class="job-title">QA Engineer / QMR</div>
         <div class="contact-info">
             <span class="contact-icons"><i class="fas fa-envelope"></i></span> Email: hari.prem@meibanglobal.com<br>
-            <span class="contact-icons"><i class="fas fa-globe"></i></span> Website: <a class="website-link" href="https://meibanenergy.com/">meibanenergy.com</a><br>
+            <span class="contact-icons"><i class="fas fa-globe"></i></span> Website: <a class="website-link" href="https://meibanenergy.com">meibanenergy.com</a><br>
             <span class="contact-icons"><i class="fab fa-whatsapp"></i></span> Phone: <a class="phone-link" href="https://wa.me/+60127926020">+60 127926020</a>
         </div>
         <img class="logo" src="https://meibanenergy.com/wp-content/uploads/2022/04/logo_white_full-1.png" alt="Company Logo">
