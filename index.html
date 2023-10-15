@@ -8,13 +8,18 @@
             margin: 0;
             background-color: #fff;
             font-family: 'Arial Narrow', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
         }
 
         .business-card-container {
             display: flex;
             justify-content: center;
-            align-items: flex-start; /* Adjusted to align at the top */
-            min-height: 100vh;
+            align-items: flex-start;
+            min-height: 100%;
+            padding-top: 200px; /* Create a 200px gap at the top */
         }
 
         .business-card {
@@ -23,6 +28,7 @@
             padding: 20px;
             border-radius: 10px;
             text-align: center;
+            transform: scale(1.7); /* Increase the scale by 70% */
         }
 
         .name {
@@ -62,7 +68,7 @@
         }
 
         .website-link:hover, .phone-link:hover {
-            color: #fff; /* This ensures the color stays white even after clicking */
+            color: #fff;
         }
 
         /* Add media query for smaller screens (e.g., mobile devices) */
