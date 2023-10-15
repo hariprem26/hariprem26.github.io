@@ -16,7 +16,7 @@
         }
 
         .business-card-container {
-            margin-top: 220px; /* Leave a gap of 220px from the top */
+            margin-top: 330px; /* Increase the gap to 330px from the top */
             display: flex;
             justify-content: center;
             align-items: flex-start;
@@ -26,23 +26,23 @@
         .business-card {
             background-color: #082F3E;
             color: #fff;
-            padding: 20px;
+            padding: 30px; /* Increase the padding */
             border-radius: 10px;
             text-align: center;
-            transform: scale(1.7); /* Increase the scale by 70% */
+            transform: scale(1.5); /* Increase the scale by 50% */
         }
 
         .name {
-            font-size: 36px;
+            font-size: 54px; /* Increase the font size */
             font-weight: bold;
         }
 
         .job-title {
-            font-size: 24px;
+            font-size: 36px; /* Increase the font size */
         }
 
         .contact-info {
-            font-size: 20px;
+            font-size: 30px; /* Increase the font size */
             margin-top: 20px;
         }
 
@@ -52,23 +52,31 @@
         }
 
         .logo {
-            max-width: 200px;
+            max-width: 300px; /* Increase the max width */
             margin-top: 20px;
         }
 
         .contact-icons {
-            font-size: 36px;
+            font-size: 30px; /* Decrease the font size for most icons */
             color: #fff;
             margin-right: 10px;
         }
 
-        /* Style the links for phone, website, and LinkedIn */
-        .website-link, .phone-link, .linkedin-link {
+        .contact-icons i.fab.fa-whatsapp {
+            font-size: 54px; /* Increase the font size for the WhatsApp icon */
+        }
+
+        .email-gap {
+            margin: 20px 0; /* Add a small gap between email and address lines */
+        }
+
+        /* Style the links for phone, LinkedIn, and address */
+        .phone-link, .linkedin-link, .address-link {
             text-decoration: none;
             color: #fff;
         }
 
-        .website-link:hover, .phone-link:hover, .linkedin-link:hover {
+        .phone-link:hover, .linkedin-link:hover, .address-link:hover {
             color: #fff;
         }
 
@@ -87,12 +95,17 @@
             <div class="name">Hariprem</div>
             <div class="job-title">QA Engineer / QMR</div>
             <div class="contact-info">
-		<span class="contact-icons"><i class="fab fa-linkedin"></i></span><a class="linkedin-link" href="https://www.linkedin.com/in/hariprem26">https://www.linkedin.com/in/hariprem26</a><br>
-		<span class="contact-icons"><i class="fas fa-envelope"></i></span>hari.prem@meibanglobal.com<br>
-                <span class="contact-icons"><i class="fas fa-globe"></i></span><a class="website-link" href="https://meibanenergy.com">meibanenergy.com</a><br>
-                <span class="contact-icons"><i class="fab fa-whatsapp"></i></span><a class="phone-link" href="https://wa.me/+60127926020">+60 127926020</a><br>             
+                <span class="contact-icons"><i class="fab fa-linkedin"></i></span><a class="linkedin-link" href="https://www.linkedin.com/in/hariprem26">linkedin.com/in/hariprem26</a><br>
+                <div class="email-gap"></div>
+                <span class="contact-icons"><i class="fas fa-envelope"></i></span>hari.prem@meibanglobal.com<br>
+                <div class="email-gap"></div>
+                <span class="contact-icons"><i class="fas fa-phone"></i></span>+60 726 70 70 4 (EXT-1008)<br>
+                <div class="email-gap"></div>
+                <span class "contact-icons"><i class="fab fa-whatsapp"></i></span><a class="phone-link" href="https://wa.me/+60127926020">+60 127926020</a><br>
+                <div class="email-gap"></div>
+                <span class="contact-icons"><i class="fas fa-map-marker"></i></span><a class="address-link" href="https://www.google.com/maps/place/Meiban+Energy+Services+Sdn.+Bhd./@1.635277,103.6125437,15z/data=!4m2!3m1!1s0x0:0x9aa2c98410a4ac84?sa=X&ved=2ahUKEwjD0fXjvfiBAxUUd2wGHS0hCTQQ_BJ6BAg_EAA&ved=2ahUKEwj d0fXjvfiBAxUUd2wGHS0hCTQQ_BJ6BAhSEAg">2, Jalan Seroja 28,<br>Bandar Indahpura, 81000<br>Kulai, Johor, Malaysia</a><br>
+                <img class="logo" src="https://meibanenergy.com/wp-content/uploads/2022/04/logo_white_full-1.png" alt="Company Logo">
             </div>
-            <img class="logo" src="https://meibanenergy.com/wp-content/uploads/2022/04/logo_white_full-1.png" alt="Company Logo">
         </div>
     </div>
 </body>
